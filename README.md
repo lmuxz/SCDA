@@ -67,3 +67,4 @@ Notebooks of all exps are provided in ``./notebooks``. You can check the source 
 ## Evaluation
 
 Two notebooks ``./notebooks/analyse.ipynb`` and ``./notebooks/amazon_analyse.ipynb`` are provided to visualize experimental results.
+The folder ``./logs`` contains all experimental results. You can empty the sub folders in ``./logs`` to delete previous results.
