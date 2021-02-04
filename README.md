@@ -8,6 +8,7 @@
 * ``./model`` contains the pre-trained models.
 * ``./notebooks`` gives jupyter notebooks of our experiments.
 * ``./preprocessing`` preporcesses the raw data to get correct representation and prepares pre-trained source models.
+* ``./py`` contains our experiments in executable python files.
 * ``./src`` contains the source code of adaptation methods, utils, etc.
 
 ## Environment
@@ -62,7 +63,11 @@ python amazon_source_nnmodel_pretraining.py
 
 ## Run Exps
 
-Notebooks of all exps are provided in ``./notebooks``. You can check the source codes in folder ``./src``.
+Notebooks of all exps are provided in ``./notebooks``. You can check the source codes in the folder ``./src``.
+For ones that want to execute experiments on backend, we provide also ``.py`` files (extracted directly from notebooks) in the folder ``./py``.
+During executions, we create a ``results`` folder to save execution checkpoints, this folder can be removed then. 
+
+Due to implementation reasons, the execution time of our methods and others are not comparable.
 
 ## Evaluation
 
