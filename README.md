@@ -64,6 +64,7 @@ python amazon_source_nnmodel_pretraining.py
 ## Run Exps
 
 Notebooks of all exps are provided in ``./notebooks``. You can check the source codes in the folder ``./src``.
+
 For ones that want to execute experiments on backend, we provide also ``.py`` files (extracted directly from notebooks) in the folder ``./py``.
 During executions, we create a ``results`` folder to save execution checkpoints, this folder can be removed then. 
 
@@ -71,5 +72,5 @@ Due to implementation reasons, the execution time of our methods and others are 
 
 ## Evaluation
 
-Two notebooks ``./notebooks/analyse.ipynb`` and ``./notebooks/amazon_analyse.ipynb`` are provided to visualize experimental results.
+Two notebooks ``./notebooks/analyse_kaggle.ipynb`` and ``./notebooks/analyse_amazon.ipynb`` are provided to visualize experimental results.
 The folder ``./logs`` contains all experimental results. You can empty the sub folders in ``./logs`` to delete previous results.
