@@ -14,7 +14,7 @@
 ## Environment
 
 We provide two ways to reproduce the environment that we used.
-* Docker container **(recommanded)**
+* Docker container **(recommended)**
 * Requirements.txt file (not tested)
 
 To use our docker image, go to the folder ``./env`` and run
