@@ -39,15 +39,20 @@ In any case, **GPU support is required.**
 
 ## Data Preprocessing
 
-We provide the preprocessed datasets in the folder ``./data``. 
-However, if you want to run the preprocessing steps by yourself, make sure to put downloaded files in the folder ``./data``.
+We provide the preprocessed Kaggle datasets and the raw Amazon datasets in the folder ``./data``.
+You need to go to the ``./preprocessing`` folder and run 
+```
+python amazon_review_dataset_preprocessing.py
+```
+in order to get the correct represenations of Amazon datasets.
+
+If you also want to run the preprocessing steps for Kaggle datasets by yourself, make sure to put downloaded files in the folder ``./data``.
 The files we need are ``train_transaction.csv`` and ``train_identity.csv``. They can be find here:
 > https://www.kaggle.com/c/ieee-fraud-detection/data
 
 Then go to the ``./preprocessing`` folder and run
 ```
 python kaggle_dataset_preprocessing.py
-python amazon_review_dataset_preprocessing.py
 ```
 
 ## Model Pre-training
