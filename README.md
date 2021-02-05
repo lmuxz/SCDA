@@ -51,7 +51,6 @@ python amazon_review_dataset_preprocessing.py
 ```
 
 ## Model Pre-training
-
 We provide the pre-trained source models in ``./model``.
 If you want to run these steps by yourself, go to ``./preprocessing`` then run
 ```
@@ -59,9 +58,15 @@ python kaggle_source_lgbmodel_pretraining.py
 python kaggle_source_nnmodel_pretraining.py
 python amazon_source_lgbmodel_pretraining.py
 python amazon_source_nnmodel_pretraining.py
-```
+``` 
 
 ## Run Exps
+Before running experiments, go to the folder ``./preprocessing`` and run
+```
+python kaggle_pretrained_baseline.py
+python amazon_pretrained_baseline.py
+``` 
+to have performances of pretrained source models.
 
 Notebooks of all exps are provided in ``./notebooks``. You can check the source codes in the folder ``./src``.
 
