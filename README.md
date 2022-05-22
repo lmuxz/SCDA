@@ -10,6 +10,7 @@
 * ``./preprocessing`` preporcesses the raw data to get correct representation and prepares pre-trained source models.
 * ``./py`` contains our experiments in executable python files.
 * ``./src`` contains the source code of adaptation methods, utils, etc.
+* ``./src/UDA`` contains the code of ToAlign + HDA (cloned from https://github.com/microsoft/UDA)
 
 ## Environment
 
